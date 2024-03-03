@@ -3,11 +3,42 @@
     border: 1px solid #333;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    max-width: 300px;
+    margin: 0 auto;
+    display: none;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: .25rem;
+    margin-bottom: .5rem;
+    gap: .25em;
 
+}
+
+.form-group:last-child {
+    margin: 0;
+}
+
+.form-group > label {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #333;
+}
+
+.step-title {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.form-group > input {
+    border: 1px solid #333;
+    border-radius: .25em;
+    font-size: 1rem;
+    padding: 0.25rem;
+}
+.card.active {
+    display: block;
 }
